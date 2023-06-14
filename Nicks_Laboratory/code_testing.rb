@@ -1,15 +1,8 @@
-# method implementation
-def times(number)
-  counter = 0
-  while counter < number
-    yield(counter)
-    counter += 1
+# in temp.rb
+require 'minitest/autorun'
+
+class MyFirstTest < Minitest::Test
+  def test_first_test
+    assert true
   end
-
-  number
-end
-
-# method invocation
-times(5) do |num|
-  puts num
 end
