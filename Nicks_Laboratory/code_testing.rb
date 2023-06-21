@@ -1,8 +1,17 @@
-# in temp.rb
-require 'minitest/autorun'
+class SomeClass
+  CONST = 4
 
-class MyFirstTest < Minitest::Test
-  def test_first_test
-    assert true
+  def some_method
+    puts "The constant is #{CONST}"
   end
 end
+
+class AnotherClass < SomeClass
+  # def some_method
+  #   puts "The constant is #{CONST}"
+  # end
+
+  CONST = 5
+end
+
+AnotherClass.new.some_method
