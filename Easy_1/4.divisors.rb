@@ -32,6 +32,11 @@ Convert range to an array
 =end
 
 def divisors(int)
+  arr = (1..int).to_a
+  arr.select { |num| int % num == 0 }
+end
+
+def divisors(int)
   arr = (1..Math.sqrt(int)).to_a
   arr.each_with_object(result = []) do |num, result|
     if int % num == 0
