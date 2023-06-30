@@ -1,17 +1,12 @@
-class SomeClass
-  CONST = 4
-
-  def some_method
-    puts "The constant is #{CONST}"
+def some_method(&block)
+  arr = []
+  if block
+    arr << block.call
+    arr
+  else
+    puts "hello"
   end
 end
 
-class AnotherClass < SomeClass
-  # def some_method
-  #   puts "The constant is #{CONST}"
-  # end
-
-  CONST = 5
-end
-
-AnotherClass.new.some_method
+some_method
+p some_method { "hi there!" }
