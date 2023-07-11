@@ -1,12 +1,5 @@
-def some_method(&block)
-  arr = []
-  if block
-    arr << block.call
-    arr
-  else
-    puts "hello"
-  end
+def some_method
+  yield
 end
 
-some_method
-p some_method { "hi there!" }
+p some_method { "hi" }
