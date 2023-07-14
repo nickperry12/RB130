@@ -9,7 +9,7 @@ enclosure around them so they can be referenced when the closure is executed.
 # 1a. How do we implement closures in Ruby?
 
 =begin
-Closures are implemented through by using 1 of 3 objects:
+Closures are implemented by using 1 of 3 objects:
 
 1. blocks
 2. procs
