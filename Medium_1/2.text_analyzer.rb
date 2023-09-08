@@ -20,14 +20,30 @@
 
 class TextAnalyzer
   def process
-    # your implementation
+    file = File.open("sample_text.txt", "r")
+    yield(file.readlines)
+    file.close
   end
 end
 
 analyzer = TextAnalyzer.new
-analyzer.process { # your implementation }
-analyzer.process { # your implementation }
-analyzer.process { # your implementation }
+analyzer.process do |lines|
+  paragraphs = 1
+  lines.each { |line| paragraphs += 1 if line.strip.empty? }
+  puts "#{paragraphs} paragraphs"
+end
+
+analyzer.process do |lines|
+  num_lines = 0
+  lines.each { |line| num_lines += 1 }
+  puts "#{num_lines} lines"
+end
+
+analyzer.process do |lines|
+  words = 0
+  lines.each { |line| words += line.split.size }
+  puts "#{words} words"
+end
 
 # Sample Output
 

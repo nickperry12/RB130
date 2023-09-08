@@ -1,5 +1,8 @@
-def some_method
+greeting = "Hello"
+
+def change_greeting
   yield
 end
 
-p some_method { "hi" }
+change_greeting { greeting = "Goodbye" }
+p greeting # "Goodbye"

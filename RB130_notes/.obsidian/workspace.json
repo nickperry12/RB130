@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RB130_Lesson_2/4. Assertions.md",
+                "file": "RB130_Lesson_1/3. Writing Methods that take Blocks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d89f2d93abb2d75d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RB130_Lesson_2/5. SEAT Approach.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RB130_Lesson_2/4. Assertions.md",
+                "file": "RB130_Lesson_2/5. SEAT Approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RB130_Lesson_2/4. Assertions.md",
+                "file": "RB130_Lesson_2/5. SEAT Approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RB130_Lesson_2/4. Assertions.md"
+                "file": "RB130_Lesson_2/5. SEAT Approach.md"
               }
             }
           }
@@ -146,28 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25fb304f6a60b5a9",
+  "active": "d89f2d93abb2d75d",
   "lastOpenFiles": [
+    "RB130_Lesson_3/Core_Ruby_Tools/5. Bundler.md",
+    "RB130_Lesson_3/6. Preparing A Rubygem.md",
+    "RB130_Lesson_2/8. Code coverage.md",
     "RB130_Lesson_2/5. SEAT Approach.md",
+    "RB130_Lesson_2/6. Testing Equality.md",
+    "RB130_Lesson_2/4. Assertions.md",
+    "RB130_Lesson_2/3. Lecture - Minitest.md",
+    "RB130_Lesson_1/3. Writing Methods that take Blocks.md",
     "RB130_Lesson_1/2. Calling Methods with Blocks.md",
+    "RB130_Lesson_1/1. Closures in Ruby.md",
+    "RB130_Lesson_1/14. Blocks and Variable Scope.md",
+    "RB130_Lesson_1/15. Symbol to proc.md",
     "RB130_Lesson_1/5. Walk-through - Build an _each_ method.md",
     "RB130_Lesson_1/9. Assignment - Todo List.md",
-    "RB130_Lesson_1/1. Closures in Ruby.md",
     "RB130_Lesson_1/4. Walk-through - Build a _times_ method.md",
     "RB130_Lesson_1/11. Assignment - TodoList(select).md",
     "RB130_Lesson_1/10. Assignment - TodoList(each).md",
-    "RB130_Lesson_1/15. Symbol to proc.md",
-    "RB130_Lesson_1/3. Writing Methods that take Blocks.md",
-    "RB130_Lesson_1/14. Blocks and Variable Scope.md",
     "RB130_Lesson_1/Summary.md",
     "RB130_Lesson_1",
-    "RB130_Lesson_2/4. Assertions.md",
-    "RB130_Lesson_2/6. Testing Equality.md",
     "RB130_Lesson_2/Pasted image 20230614135240.png",
     "RB130_Lesson_2/Pasted image 20230614141514.png",
     "RB130_Lesson_2/Pasted image 20230620220047.png",
-    "RB130_Lesson_2/3. Lecture - Minitest.md",
-    "RB130_Lesson_2/8. Code coverage.md",
     "RB130_Lesson_2/9. Summary.md",
     "RB130_Lesson_2/7. Assignment - Write a test suite for TodoList.md",
     "RB130_Lesson_2"
